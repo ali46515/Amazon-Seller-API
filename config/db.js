@@ -1,4 +1,7 @@
 import mongoose from "mongoose";
+import { config } from "dotenv";
+import { expand } from "dotenv-expand";
+expand(config());
 
 const connectDB = async () => {
   try {
