@@ -1,0 +1,24 @@
+{
+  "name": "amazon-seller",
+  "version": "1.0.0",
+  "description": "Production-ready Amazon Seller Tool backend using Node.js, Express, and MongoDB",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "express-async-errors": "^3.1.1",
+    "fast-csv": "^5.0.5",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "xlsx": "^0.18.5"
+  }
+}
